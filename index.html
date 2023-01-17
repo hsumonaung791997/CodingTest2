@@ -19,7 +19,7 @@
     <header>
         <div class="header-navbar">
             <div class="mobile-nav d-flex d-md-none justify-content-between align-items-center">
-                <div class="mobile-menu-btn">
+                <div class="mobile-menu-btn" id="mobileBtn">
                     <img src="./assets/img/urn_aaid_sc_US_c3ea4259-d1ce-45e8-a648-68fb8749809f.png" alt="menu-btn">
                 </div>
                 <div class="mobile-logo">
@@ -27,6 +27,56 @@
                 </div>
                 <div class="mobile-cart-btn">
                     <img src="./assets/img/addtocart.png" alt="cart">
+                </div>
+            </div>
+            <div class="mobile-menu d-md-none" id="mobileMenu">
+                <div class="mobile-search d-flex">
+                    <input type="search" class="form-search">
+                    <div>
+                        <img src="./assets/img/Icon feather-search.svg" class="mb-search" alt="mb-search">
+                    </div>
+                </div>
+                <button class="mobile-login">ログイン</button>
+                <div class="mobile-link">
+                    <h2>CATEGORY</h2>
+                    <ul>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                        <li><a href="">カテゴリ名</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-link">
+                    <h2>BRAND</h2>
+                    <ul>
+                        <li><a href="">ブランド名</a></li>
+                        <li><a href="">ブランド名</a></li>
+                        <li><a href="">ブランド名</a></li>
+                        <li><a href="">ブランド名</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-link">
+                    <h2>INFOMATION</h2>
+                    <ul>
+                        <li><a href="">kalakuについて</a></li>
+                        <li><a href="">ショップ</a></li>
+                        <li><a href="">スクール</a></li>
+                        <li><a href="">ご利用ガイド</a></li>
+                        <li><a href="">会社概要</a></li>
+                        <li><a href="">お問い合わせ</a></li>
+                        <li style="margin-top: 20px;"><a href="">特定商取引法に基づく表記</a></li>
+                        <li><a href="">プライバシーポリシー</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-link">
+                    <h2>FOLLOW US</h2>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
                 </div>
             </div>
             <nav class="d-none d-md-flex navbar-expand-lg align-items-center justify-content-between">
@@ -197,12 +247,12 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicator"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"><i
+                    <span class="carousel-control-prev" aria-hidden="true"><i
                             class="fa-solid fa-chevron-left"></i></span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicator"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon"><i class="fa-solid fa-chevron-right"></i></span>
+                    <span class="carousel-control-next"><i class="fa-solid fa-chevron-right"></i></span>
                 </button>
             </div>
         </div>
@@ -374,6 +424,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
