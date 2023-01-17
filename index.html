@@ -17,8 +17,20 @@
 
 <body>
     <header>
-        <div>
-            <nav class="d-flex navbar-expand-lg align-items-center justify-content-between">
+        <div class="header-navbar">
+            <div class="mobile-nav d-flex d-md-none justify-content-between align-items-center">
+                <div class="mobile-menu-btn">
+                    <img src="./assets/img/urn_aaid_sc_US_c3ea4259-d1ce-45e8-a648-68fb8749809f.png" alt="menu-btn">
+                </div>
+                <div class="mobile-logo">
+                    <img src="./assets/img/グループ 168.svg" alt="logo-m">
+                </div>
+                <div class="mobile-cart-btn">
+                    <img src="./assets/img/addtocart.png" alt="cart">
+                </div>
+            </div>
+            <nav class="d-none d-md-flex navbar-expand-lg align-items-center justify-content-between">
+
                 <a href="" class="navbar-brand">
                     <img src="./assets/img/logo.png" alt="logo">
                 </a>
@@ -74,7 +86,7 @@
                     </div>
                 </div>
             </nav>
-            <div class="semi-nav">
+            <div class="d-none d-md-block semi-nav">
                 <ul class="d-flex">
                     <li class="nav-item"><a href="" class="nav-link">製品一覧</a>
                         <div class="dropdown-container d-flex justify-content-between">
@@ -201,7 +213,7 @@
             <img src="./assets/img/brand.png" alt="brand">
         </div>
         <div class="cards">
-            <div class="d-flex justify-content-between item-group">
+            <div class="d-block d-md-flex justify-content-between item-group">
                 <div class="item">
                     <span>ブランドページ①への誘導バナー</span>
                 </div>
@@ -209,7 +221,7 @@
                     <span>ブランドページ②への誘導バナー</span>
                 </div>
             </div>
-            <div class="d-flex justify-content-between item-group">
+            <div class="d-block d-md-flex justify-content-between item-group">
                 <div class="item">
                     <span>ブランドページ①への誘導バナー</span>
                 </div>
@@ -223,14 +235,14 @@
         <div class="header">
             <img src="./assets/img/タイトル (1).svg" alt="c-1">
         </div>
-        <div class="btn-container">
-            <div class="btn-groups">
+        <div class="btn-container d-flex d-md-block justify-content-between">
+            <div class="btn-groups d-block d-md-flex justify-content-between">
                 <button class="btn-cate">カテゴリ名</button>
                 <button class="btn-cate">カテゴリ名</button>
                 <button class="btn-cate">カテゴリ名</button>
                 <button class="btn-cate">カテゴリ名</button>
             </div>
-            <div class="btn-groups">
+            <div class="btn-groups d-block d-md-flex justify-content-between">
                 <button class="btn-cate">カテゴリ名</button>
                 <button class="btn-cate">カテゴリ名</button>
                 <button class="btn-cate">カテゴリ名</button>
@@ -330,6 +342,15 @@
                     <div class="rank-card">
                         <div class="rank-image">
                             <img src="./assets/img/base2-4.png" alt="a-1">
+                        </div>
+                        <div class="rank-desc">
+                            <p>ここに商品名が入りますここに商品名が入ります</p>
+                            <p class="price">0,000円（税込）</p>
+                        </div>
+                    </div>
+                    <div class="rank-card d-block d-md-none">
+                        <div class="rank-image">
+                            <img src="./assets/img/base2-2.png" alt="a-1">
                         </div>
                         <div class="rank-desc">
                             <p>ここに商品名が入りますここに商品名が入ります</p>
